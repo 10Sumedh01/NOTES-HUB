@@ -1,0 +1,135 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  /* font-family: 'Poppins', sans-serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+  /* font-family: 'Staatliches', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #468d99;
+}
+
+/* Header img Styling Here -> */
+.container-img{
+    height: 37vh;
+    background-color: #468d99;
+    background-image: url(resources/header-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+}
+
+/* .container-img .heading-text{
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+} */
+
+/* Subject list Styling Here -> */
+
+.subject-container{
+    /* height: 100vh; */
+    margin-bottom: 40px;
+}
+
+.subject-container ul li{
+    margin: auto;
+    list-style: none;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 120px;
+    background-color: #d2bde2;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 2.2rem;
+}
+
+.subject-container ul li:hover{
+    transition: .5s;
+    width: 90%;
+    height: 140px;
+}
+
+.subject-container ul li img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-left: 20px;
+    /* background-color: white; */
+}
+
+.subject-container ul li .cn{
+    width: 95px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.subject-container ul li a{
+    /* padding:  10px; */
+    /* margin-left: 10px; */
+    margin: auto 25px;
+    text-decoration: none;
+    color: white;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Staatliches', cursive; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.footer{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer h1{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 3px;
+  color: #ddd;
+}
+
+.footer h3{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: rgb(33, 32, 32);
+}
