@@ -135,6 +135,7 @@ html{
 }
 .visibility-hidden{
     visibility: hidden;
+  height: 30px;
 }
 .bulb-container{
     position: relative;
