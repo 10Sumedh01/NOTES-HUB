@@ -41,6 +41,10 @@ html{
     margin-bottom: 40px;
 }
 
+.subject-container h1{
+    text-align: center;
+}
+
 .subject-container ul li{
     margin: auto;
     list-style: none;
