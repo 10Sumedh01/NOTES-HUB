@@ -38,11 +38,15 @@ html{
 
 .subject-container{
     /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
     margin-bottom: 40px;
 }
 
 .subject-container h1{
     text-align: center;
+  text-transform: uppercase;
 }
 
 .subject-container ul li{
