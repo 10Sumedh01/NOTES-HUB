@@ -44,9 +44,13 @@ html{
     margin-bottom: 40px;
 }
 
-.subject-container h1{
+h1{
+    margin: auto;
     text-align: center;
-  text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Poppins';
+    line-height: 100px;
 }
 
 .subject-container ul li{
